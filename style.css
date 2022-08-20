@@ -1,0 +1,104 @@
+ body{
+   /* background-color:lavender;*/
+    background-image: url("Forgot_image.jpg");
+   /* background-position: center;*/
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}
+h1{
+    text-align: center;
+    color:white;
+    font-family: Garamond;
+}
+#reset{
+    display: flex;
+    width: 60px;
+    height: 30px;
+}
+.main{
+    border-radius: 25px;
+    /*border: 2px solid #73AD21;*/
+    border-style:solid;
+    border-width: 2px;
+    border-color: black;
+    background-color:rgb(10, 46, 118);
+  
+
+    padding-bottom: 2px;
+    left: 40px;
+    margin-top: 30px;
+    margin: auto;
+  width: -50%;
+  border: 3px solid #73AD21;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 100%;
+}
+.btn{
+    background-color:crimson;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: lightgrey;
+    color:black;
+}
+.flex{
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.flex1{
+    padding:10px;
+}
+.flex2{
+    padding:10px;
+}
+.sub1{
+    padding-top: 10px;
+    text-align: center;
+    
+}
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 120%;
+}
+#length{
+    border-style: inherit;
+    width: 3rem;
+    border-radius: 5px;
+}
+.sub2{
+    text-align: center;
+}
+.button{
+    background-color:crimson;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+.button:hover{
+    background-color:lightgrey;
+    color:black;
+}
+.output_space{
+    border-radius: 25px;
+    height: 2.5rem;
+    width:300px;
+    display:flex;
+    border-width: 5rem;
+    padding: 1rem;
+    background-color:white;
+    justify-content: center;
+    word-break: break-all;
+    border: 1px solid;
+    padding: 1rem;
+    color:black;
+    border-color: black;
+}
